@@ -1,0 +1,19 @@
+server:
+  port: 8201
+eureka:
+  client:
+    # 跟上面一样，需要指向Eureka服务端地址，这样才能进行注册
+    service-url:
+      defaultZone: http://eurekaA:8001/eureka,http://eurekaB:8002/eureka
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp18r248ij4z16o5ogo.mysql.rds.aliyuncs.com:3306/spring-cloud-study?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC
+    username: slayerd
+    password: Songyudong061618
+  application:
+    name: bookservice
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
