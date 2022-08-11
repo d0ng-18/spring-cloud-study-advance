@@ -17,7 +17,11 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-
+        ephemeral: false
+        cluster-name: Shanghai
+    loadbalancer:
+      nacos:
+        enabled: true
 #开启feign支持熔断的功能
 feign:
   circuitbreaker:
