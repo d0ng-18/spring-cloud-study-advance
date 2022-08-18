@@ -1,10 +1,5 @@
-#server:
-#  port: 8101
-eureka:
-  client:
-    # 跟上面一样，需要指向Eureka服务端地址，这样才能进行注册
-    service-url:
-      defaultZone: http://eurekaA:8001/eureka,http://eurekaB:8002/eureka
+server:
+  port: 8101
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -16,5 +11,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: localhost:1234
+        #        server-addr: localhost:8801
         ephemeral: false
+#        namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58

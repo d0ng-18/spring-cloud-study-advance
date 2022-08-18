@@ -11,20 +11,20 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 @RestController
-@RefreshScope
+//@RefreshScope
 public class UserController {
 
     @Resource
     private UserService userService;
 
-    @Value("${test.syd}")
-    private String value;
+//    @Value("${test.syd}")
+//    private String value;
 
     //这里以RESTFul风格为例
     @RequestMapping("/user/{uid}")
     public User findUserById(@PathVariable("uid") int uid) {
         System.out.println("我被调用了");
-        System.out.println(value);
+//        System.out.println(value);
         return userService.getUserById(uid);
     }
 }
