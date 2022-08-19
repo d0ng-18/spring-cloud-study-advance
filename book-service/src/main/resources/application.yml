@@ -14,4 +14,7 @@ spring:
         server-addr: localhost:1234
         #        server-addr: localhost:8801
         ephemeral: false
-#        namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58
+    #        namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58
+    sentinel:
+      transport:
+        dashboard: localhost:8803

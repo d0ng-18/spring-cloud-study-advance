@@ -12,4 +12,14 @@ public class UserFallBackClient implements UserClient {
         user.setName("补救措施");
         return user;
     }
+
+    @Override
+    public boolean userBorrow(int uid) {
+        return false;
+    }
+
+    @Override
+    public int userRemain(int uid) {
+        return 0;
+    }
 }

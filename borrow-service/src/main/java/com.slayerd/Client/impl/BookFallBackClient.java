@@ -12,4 +12,14 @@ public class BookFallBackClient implements BookClient {
         book.setDesc("补救措施");
         return book;
     }
+
+    @Override
+    public boolean bookBorrow(int bid) {
+        return false;
+    }
+
+    @Override
+    public int bookRemain(int bid) {
+        return 0;
+    }
 }

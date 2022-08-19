@@ -18,7 +18,14 @@ spring:
     loadbalancer:
       nacos:
         enabled: true
+    sentinel:
+      transport:
+        dashboard: localhost:8803
+      web-context-unify: false
+      block-page: /blocked
 #开启feign支持熔断的功能
 feign:
-  circuitbreaker:
+#  circuitbreaker:
+#    enabled: true
+  sentinel:   #sentinel也支持开启feign的降级功能
     enabled: true
