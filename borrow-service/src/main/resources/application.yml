@@ -12,9 +12,9 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:1234
-#        server-addr: localhost:8801
+        #        server-addr: localhost:8801
         ephemeral: false
-#        cluster-name: Shanghai
+    #        cluster-name: Shanghai
     loadbalancer:
       nacos:
         enabled: true
@@ -25,7 +25,28 @@ spring:
       block-page: /blocked
 #开启feign支持熔断的功能
 feign:
-#  circuitbreaker:
-#    enabled: true
-  sentinel:   #sentinel也支持开启feign的降级功能
+  #  circuitbreaker:
+  #    enabled: true
+  sentinel: #sentinel也支持开启feign的降级功能
     enabled: true
+seata:
+  service:
+    vgroup-mapping:
+      borrowservice-seata-service-group: default
+    grouplist:
+      default: localhost:8804
+
+#当配置了nacos部署，采用下面的配置文件
+#  config:
+#    type: nacos
+#    nacos:
+#      namespace:
+#      username:
+#      password:
+#  registry:
+#    type: nacos
+#    nacos:
+#      namespace:
+#      username:
+#      password:
+

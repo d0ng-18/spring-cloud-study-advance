@@ -1,0 +1,12 @@
+2022-08-24 09:42:58,605 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+
+2022-08-24 09:42:58,622 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-08-24 09:42:58,623 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-08-24 09:43:07,456 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
+
+2022-08-24 09:43:09,399 INFO DEFAULT_GROUP@@userservice is changed, add it to push queue.
+
+2022-08-24 09:43:15,937 INFO DEFAULT_GROUP@@borrowservice is changed, add it to push queue.
+

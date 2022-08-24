@@ -1,0 +1,518 @@
+2022-08-19 10:26:47,292 INFO The server IP list of Nacos is [192.168.234.114:8801, 192.168.234.114:8802]
+
+2022-08-19 10:26:47,301 INFO Starting Nacos v1.4.3 on DESKTOP-FF8HSNA with PID 18060 (D:\Projects\spring-cloud-study-advance\nacos1\target\nacos-server.jar started by 86195 in D:\Projects\spring-cloud-study-advance\nacos1)
+
+2022-08-19 10:26:47,302 INFO No active profile set, falling back to default profiles: default
+
+2022-08-19 10:26:48,302 INFO Nacos is starting...
+
+2022-08-19 10:26:49,309 INFO Nacos is starting...
+
+2022-08-19 10:26:49,467 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@565f390' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-19 10:26:49,473 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-19 10:26:50,325 INFO Nacos is starting...
+
+2022-08-19 10:26:50,429 INFO Tomcat initialized with port(s): 8801 (http)
+
+2022-08-19 10:26:50,472 INFO Initializing ProtocolHandler ["http-nio-8801"]
+
+2022-08-19 10:26:50,496 INFO Starting service [Tomcat]
+
+2022-08-19 10:26:50,496 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2022-08-19 10:26:51,062 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2022-08-19 10:26:51,105 INFO Initializing Spring embedded WebApplicationContext
+
+2022-08-19 10:26:51,105 INFO Root WebApplicationContext: initialization completed in 3745 ms
+
+2022-08-19 10:26:51,329 INFO Nacos is starting...
+
+2022-08-19 10:26:51,558 INFO HikariPool-1 - Starting...
+
+2022-08-19 10:26:52,333 INFO Nacos is starting...
+
+2022-08-19 10:26:52,525 INFO HikariPool-1 - Start completed.
+
+2022-08-19 10:26:53,340 INFO Nacos is starting...
+
+2022-08-19 10:26:53,613 INFO Nacos-related cluster resource initialization
+
+2022-08-19 10:26:53,635 INFO The cluster resource is initialized
+
+2022-08-19 10:26:54,346 INFO Nacos is starting...
+
+2022-08-19 10:26:55,350 INFO Nacos is starting...
+
+2022-08-19 10:26:56,025 INFO Reflections took 63 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2022-08-19 10:26:56,062 INFO Reflections took 6 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2022-08-19 10:26:56,079 INFO Reflections took 5 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2022-08-19 10:26:56,091 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2022-08-19 10:26:56,352 INFO Nacos is starting...
+
+2022-08-19 10:26:57,112 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-08-19 10:26:57,288 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-08-19 10:26:57,368 INFO Nacos is starting...
+
+2022-08-19 10:26:57,761 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2022-08-19 10:26:57,807 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67ef029, org.springframework.security.web.context.SecurityContextPersistenceFilter@1eef9aef, org.springframework.security.web.header.HeaderWriterFilter@2e5c7f0b, org.springframework.security.web.csrf.CsrfFilter@a50b09c, org.springframework.security.web.authentication.logout.LogoutFilter@2e77b8cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5db99216, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f46d94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7df587ef, org.springframework.security.web.session.SessionManagementFilter@4de025bf, org.springframework.security.web.access.ExceptionTranslationFilter@6691490c]
+
+2022-08-19 10:26:57,956 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-08-19 10:26:58,005 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-08-19 10:26:58,147 INFO Starting ProtocolHandler ["http-nio-8801"]
+
+2022-08-19 10:26:58,201 INFO Tomcat started on port(s): 8801 (http) with context path '/nacos'
+
+2022-08-19 10:26:58,208 INFO Started Nacos in 12.298 seconds (JVM running for 13.004)
+
+2022-08-19 10:26:58,209 INFO Nacos started successfully in cluster mode. use external storage
+
+2022-08-19 10:27:01,677 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-08-19 10:27:01,677 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-08-19 10:27:01,693 INFO Completed initialization in 16 ms
+
+2022-08-19 10:28:57,909 INFO Transport failed
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1140)
+	at io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-19 10:29:14,955 INFO The server IP list of Nacos is [192.168.234.114:8801, 192.168.234.114:8802]
+
+2022-08-19 10:29:14,961 INFO Starting Nacos v1.4.3 on DESKTOP-FF8HSNA with PID 18184 (D:\Projects\spring-cloud-study-advance\nacos1\target\nacos-server.jar started by 86195 in D:\Projects\spring-cloud-study-advance\nacos1)
+
+2022-08-19 10:29:14,961 INFO No active profile set, falling back to default profiles: default
+
+2022-08-19 10:29:15,971 INFO Nacos is starting...
+
+2022-08-19 10:29:16,976 INFO Nacos is starting...
+
+2022-08-19 10:29:17,545 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5a7fe64f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-19 10:29:17,552 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-19 10:29:17,996 INFO Nacos is starting...
+
+2022-08-19 10:29:18,571 INFO Tomcat initialized with port(s): 8801 (http)
+
+2022-08-19 10:29:18,603 INFO Initializing ProtocolHandler ["http-nio-8801"]
+
+2022-08-19 10:29:18,627 INFO Starting service [Tomcat]
+
+2022-08-19 10:29:18,627 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2022-08-19 10:29:19,014 INFO Nacos is starting...
+
+2022-08-19 10:29:19,025 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2022-08-19 10:29:19,105 INFO Initializing Spring embedded WebApplicationContext
+
+2022-08-19 10:29:19,105 INFO Root WebApplicationContext: initialization completed in 4090 ms
+
+2022-08-19 10:29:19,658 INFO HikariPool-1 - Starting...
+
+2022-08-19 10:29:20,022 INFO Nacos is starting...
+
+2022-08-19 10:29:20,603 INFO HikariPool-1 - Start completed.
+
+2022-08-19 10:29:21,024 INFO Nacos is starting...
+
+2022-08-19 10:29:21,436 INFO Nacos-related cluster resource initialization
+
+2022-08-19 10:29:21,458 INFO The cluster resource is initialized
+
+2022-08-19 10:29:22,033 INFO Nacos is starting...
+
+2022-08-19 10:29:23,041 INFO Nacos is starting...
+
+2022-08-19 10:29:23,685 INFO Reflections took 71 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2022-08-19 10:29:23,724 INFO Reflections took 5 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2022-08-19 10:29:23,747 INFO Reflections took 7 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2022-08-19 10:29:23,764 INFO Reflections took 4 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2022-08-19 10:29:24,047 INFO Nacos is starting...
+
+2022-08-19 10:29:24,747 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-08-19 10:29:24,905 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-08-19 10:29:25,062 INFO Nacos is starting...
+
+2022-08-19 10:29:25,436 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2022-08-19 10:29:25,469 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bde62ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@4089713, org.springframework.security.web.header.HeaderWriterFilter@7bb3a9fe, org.springframework.security.web.csrf.CsrfFilter@74bdc168, org.springframework.security.web.authentication.logout.LogoutFilter@4a067c25, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7807ac2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a77614d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@523424b5, org.springframework.security.web.session.SessionManagementFilter@7f811d00, org.springframework.security.web.access.ExceptionTranslationFilter@532a02d9]
+
+2022-08-19 10:29:25,566 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-08-19 10:29:25,599 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-08-19 10:29:25,717 INFO Starting ProtocolHandler ["http-nio-8801"]
+
+2022-08-19 10:29:25,779 INFO Tomcat started on port(s): 8801 (http) with context path '/nacos'
+
+2022-08-19 10:29:25,786 INFO Started Nacos in 12.173 seconds (JVM running for 12.737)
+
+2022-08-19 10:29:25,787 INFO Nacos started successfully in cluster mode. use external storage
+
+2022-08-19 10:29:27,911 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-08-19 10:29:27,911 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-08-19 10:29:27,920 INFO Completed initialization in 8 ms
+
+2022-08-19 10:38:33,574 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5284c10c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 10:39:24,008 INFO [capacityManagement] start correct usage
+
+2022-08-19 10:39:24,324 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-19 10:39:24,473 WARN clearConfigHistory start
+
+2022-08-19 10:49:24,327 INFO [capacityManagement] start correct usage
+
+2022-08-19 10:49:24,556 WARN clearConfigHistory start
+
+2022-08-19 10:49:24,566 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-19 10:54:59,809 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6416886b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 10:59:24,567 INFO [capacityManagement] start correct usage
+
+2022-08-19 10:59:24,807 WARN clearConfigHistory start
+
+2022-08-19 10:59:24,842 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-19 11:09:24,843 INFO [capacityManagement] start correct usage
+
+2022-08-19 11:09:25,195 WARN clearConfigHistory start
+
+2022-08-19 11:09:25,413 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-19 11:19:25,427 INFO [capacityManagement] start correct usage
+
+2022-08-19 11:19:25,561 WARN clearConfigHistory start
+
+2022-08-19 11:19:25,976 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-08-19 11:22:52,348 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@366a082e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 11:22:52,835 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@577bbf14 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 11:23:02,351 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2d090611 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 11:29:25,922 WARN clearConfigHistory start
+
+2022-08-19 11:29:25,977 INFO [capacityManagement] start correct usage
+
+2022-08-19 11:29:55,924 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+
+2022-08-19 11:39:55,927 WARN clearConfigHistory start
+
+2022-08-19 11:40:25,929 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+
+2022-08-19 11:50:25,929 WARN clearConfigHistory start
+
+2022-08-19 11:50:55,937 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30007ms.
+
+2022-08-19 12:00:55,938 WARN clearConfigHistory start
+
+2022-08-19 12:01:25,939 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms.
+
+2022-08-19 12:11:25,939 WARN clearConfigHistory start
+
+2022-08-19 12:11:55,940 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+
+2022-08-19 12:20:33,546 INFO Transport failed
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1140)
+	at io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-19 12:20:33,546 INFO Transport failed
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1140)
+	at io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-19 12:21:55,942 WARN clearConfigHistory start
+
+2022-08-19 12:22:25,943 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+
+2022-08-19 12:32:25,944 WARN clearConfigHistory start
+
+2022-08-19 12:32:55,948 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30003ms.
+
+2022-08-19 12:42:55,950 WARN clearConfigHistory start
+
+2022-08-19 12:43:25,962 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30011ms.
+
+2022-08-19 12:53:25,963 WARN clearConfigHistory start
+
+2022-08-19 12:53:55,965 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+
+2022-08-19 13:03:55,965 WARN clearConfigHistory start
+
+2022-08-19 13:04:25,971 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30005ms.
+
+2022-08-19 13:14:25,971 WARN clearConfigHistory start
+
+2022-08-19 13:14:55,974 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30002ms.
+
+2022-08-19 13:24:55,978 WARN clearConfigHistory start
+
+2022-08-19 13:25:25,980 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+
+2022-08-19 13:35:25,981 WARN clearConfigHistory start
+
+2022-08-19 13:35:55,994 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30012ms.
+
+2022-08-19 13:45:55,995 WARN clearConfigHistory start
+
+2022-08-19 13:46:25,996 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms.
+
+2022-08-19 13:56:26,004 WARN clearConfigHistory start
+
+2022-08-19 13:56:56,005 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms.
+
+2022-08-19 13:59:37,467 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@35dd1dbf marked as broken because of SQLSTATE(null), ErrorCode(0)
+
+com.mysql.cj.jdbc.exceptions.MySQLTimeoutException: Statement cancelled due to timeout or client request
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:113)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1177)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:111)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl$CheckDbHealthTask.run(ExternalDataSourceServiceImpl.java:246)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-19 14:05:00,187 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@117b0050 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 14:05:10,191 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@689450c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 14:06:56,005 WARN clearConfigHistory start
+
+2022-08-19 14:07:41,789 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@4e243594 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 171,363 milliseconds ago. The last packet sent successfully to the server was 174,582 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setSessionMaxRows(ConnectionImpl.java:2430)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1001)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:678)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:97)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:56)
+	at com.alibaba.nacos.config.server.auth.ExternalRolePersistServiceImpl.getRolesByUserName(ExternalRolePersistServiceImpl.java:101)
+	at com.alibaba.nacos.console.security.nacos.roles.NacosRoleServiceImpl.reload(NacosRoleServiceImpl.java:77)
+	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 171,363 milliseconds ago. The last packet sent successfully to the server was 174,582 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor100.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:702)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:641)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:940)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:886)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setSessionMaxRows(ConnectionImpl.java:2426)
+	... 25 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:532)
+	... 31 common frames omitted
+2022-08-19 14:16:56,439 WARN clearConfigHistory start
+
+2022-08-19 14:26:56,722 WARN clearConfigHistory start
+
+2022-08-19 14:36:57,011 WARN clearConfigHistory start
+
+2022-08-19 14:46:57,466 WARN clearConfigHistory start
+
+2022-08-19 14:56:57,752 WARN clearConfigHistory start
+
+2022-08-19 15:06:58,044 WARN clearConfigHistory start
+
+2022-08-19 15:16:58,464 WARN clearConfigHistory start
+
+2022-08-19 15:26:58,800 WARN clearConfigHistory start
+
+2022-08-19 15:36:59,015 WARN clearConfigHistory start
+
+2022-08-19 15:46:10,606 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5afeb816 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 15:46:18,622 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4063988b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 15:46:20,613 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@bf04725 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+
+2022-08-19 15:46:59,300 WARN clearConfigHistory start
+
+2022-08-19 15:47:29,302 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+
+2022-08-19 15:57:29,309 WARN clearConfigHistory start
+
+2022-08-19 15:57:59,310 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms.
+
+2022-08-19 16:07:59,319 WARN clearConfigHistory start
+
+2022-08-19 16:08:29,321 ERROR clearConfigHistory error : org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+
+2022-08-19 16:18:29,322 WARN clearConfigHistory start
+
+2022-08-19 16:28:29,576 WARN clearConfigHistory start
+
+2022-08-19 16:38:29,845 WARN clearConfigHistory start
+
+2022-08-19 16:42:33,550 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@2f1656f3 marked as broken because of SQLSTATE(null), ErrorCode(0)
+
+com.mysql.cj.jdbc.exceptions.MySQLTimeoutException: Statement cancelled due to timeout or client request
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:113)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1177)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:111)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl$CheckDbHealthTask.run(ExternalDataSourceServiceImpl.java:246)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-19 16:44:05,165 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@45ac4542 marked as broken because of SQLSTATE(null), ErrorCode(0)
+
+com.mysql.cj.jdbc.exceptions.MySQLTimeoutException: Statement cancelled due to timeout or client request
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:113)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1177)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:111)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl$CheckDbHealthTask.run(ExternalDataSourceServiceImpl.java:246)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-19 16:48:30,146 WARN clearConfigHistory start
+
+2022-08-19 16:58:30,596 WARN clearConfigHistory start
+
+2022-08-19 17:08:30,829 WARN clearConfigHistory start
+
+2022-08-19 17:18:31,102 WARN clearConfigHistory start
+
+2022-08-19 17:28:31,441 WARN clearConfigHistory start
+

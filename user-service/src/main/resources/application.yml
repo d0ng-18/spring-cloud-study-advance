@@ -18,3 +18,9 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8803
+seata:
+  service:
+    vgroup-mapping:
+      userservice-seata-service-group: default
+    grouplist:
+      default: localhost:8804

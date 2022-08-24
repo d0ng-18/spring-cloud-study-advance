@@ -1,0 +1,132 @@
+2022-08-19 10:26:58,801 INFO raft peers changed: [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.234.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-19 10:26:58,827 INFO initializing Raft sub-system
+
+2022-08-19 10:26:58,952 INFO finish loading all datums, size: 6 cost 125 ms.
+
+2022-08-19 10:26:58,954 INFO cache loaded, datum count: 6, current term: 0
+
+2022-08-19 10:26:58,954 INFO finish to load data from disk, cost: 127 ms.
+
+2022-08-19 10:26:58,957 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-08-19 10:26:59,743 INFO raft peers changed: [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.234.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-19 10:27:00,263 INFO Raft group naming_persistent_service has leader null
+
+2022-08-19 10:27:00,517 INFO snapshot load from : D:\Projects\spring-cloud-study-advance\nacos2\data\protocol\raft\naming_persistent_service\snapshot\snapshot_14\naming_persistent
+
+2022-08-19 10:27:01,340 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-19 10:27:01,367 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-19 10:27:01,367 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@borrowservice, value: Service{name='DEFAULT_GROUP@@borrowservice', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-08-19 10:27:01,369 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrowservice
+
+2022-08-19 10:27:01,489 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@userservice, value: Service{name='DEFAULT_GROUP@@userservice', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-08-19 10:27:01,489 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@userservice
+
+2022-08-19 10:27:01,491 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@bookservice, value: Service{name='DEFAULT_GROUP@@bookservice', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-08-19 10:27:01,492 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@bookservice
+
+2022-08-19 10:27:06,878 INFO vote 192.168.234.114:8801 as leader, term: 1
+
+2022-08-19 10:27:08,810 WARN start to close old raft protocol!!!
+
+2022-08-19 10:27:08,810 WARN stop old raft protocol task for notifier
+
+2022-08-19 10:27:08,810 WARN stop old raft protocol task for master task
+
+2022-08-19 10:27:08,810 WARN stop old raft protocol task for heartbeat task
+
+2022-08-19 10:27:08,810 WARN clean old cache datum for old raft
+
+2022-08-19 10:27:08,810 WARN start to close old raft protocol!!!
+
+2022-08-19 10:27:08,810 WARN stop old raft protocol task for notifier
+
+2022-08-19 10:27:08,810 WARN stop old raft protocol task for master task
+
+2022-08-19 10:27:08,810 WARN stop old raft protocol task for heartbeat task
+
+2022-08-19 10:27:08,810 WARN clean old cache datum for old raft
+
+2022-08-19 10:27:08,810 WARN start to move old raft protocol metadata
+
+2022-08-19 10:27:08,810 WARN start to move old raft protocol metadata
+
+2022-08-19 10:27:09,262 INFO raft peers changed: [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={lastRefreshTime=1660876028810, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@6266edf4, raftPort=7802, version=1.4.3}}, Member{ip='192.168.234.114', port=8801, state=UP, extendInfo={lastRefreshTime=1660876029260, raftMetaData={metaDataMap={naming_persistent_service={raftGroupMember=[192.168.16.114:7801, 192.168.16.114:7802]}}}, raftPort=7801, version=1.4.3}}]
+
+2022-08-19 10:29:25,867 INFO raft peers changed: [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.234.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-19 10:29:25,909 INFO initializing Raft sub-system
+
+2022-08-19 10:29:25,911 INFO finish loading all datums, size: 0 cost 2 ms.
+
+2022-08-19 10:29:25,914 INFO cache loaded, datum count: 0, current term: 0
+
+2022-08-19 10:29:25,914 INFO finish to load data from disk, cost: 5 ms.
+
+2022-08-19 10:29:25,919 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-08-19 10:29:26,783 INFO raft peers changed: [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.234.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-19 10:29:26,989 INFO Raft group naming_persistent_service has leader null
+
+2022-08-19 10:29:27,721 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-19 10:29:27,738 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-19 10:29:28,979 INFO Raft group naming_persistent_service has leader 192.168.234.114:7801
+
+2022-08-19 10:29:35,571 INFO vote 192.168.234.114:8801 as leader, term: 1
+
+2022-08-19 10:29:35,863 WARN start to close old raft protocol!!!
+
+2022-08-19 10:29:35,863 WARN stop old raft protocol task for notifier
+
+2022-08-19 10:29:35,863 WARN stop old raft protocol task for master task
+
+2022-08-19 10:29:35,863 WARN stop old raft protocol task for heartbeat task
+
+2022-08-19 10:29:35,863 WARN clean old cache datum for old raft
+
+2022-08-19 10:29:35,863 WARN start to close old raft protocol!!!
+
+2022-08-19 10:29:35,863 WARN stop old raft protocol task for notifier
+
+2022-08-19 10:29:35,863 WARN stop old raft protocol task for master task
+
+2022-08-19 10:29:35,863 WARN stop old raft protocol task for heartbeat task
+
+2022-08-19 10:29:35,863 WARN clean old cache datum for old raft
+
+2022-08-19 10:29:35,863 WARN start to move old raft protocol metadata
+
+2022-08-19 10:29:35,863 WARN start to move old raft protocol metadata
+
+2022-08-19 10:29:36,838 INFO raft peers changed: [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={lastRefreshTime=1660876175863, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@42613924, raftPort=7802, version=1.4.3}}, Member{ip='192.168.234.114', port=8801, state=UP, extendInfo={lastRefreshTime=1660876176836, raftMetaData={metaDataMap={naming_persistent_service={leader=192.168.234.114:7801, raftGroupMember=[192.168.234.114:7802, 192.168.234.114:7801], term=1}}}, raftPort=7801, version=1.4.3}}]
+
+2022-08-19 10:29:58,759 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@bookservice
+
+2022-08-19 10:29:58,917 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@bookservice, value: Service{name='DEFAULT_GROUP@@bookservice', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-08-19 10:29:58,943 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@bookservice
+
+2022-08-19 10:36:05,822 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@userservice
+
+2022-08-19 10:36:05,853 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@userservice, value: Service{name='DEFAULT_GROUP@@userservice', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-08-19 10:36:05,879 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@userservice
+
+2022-08-19 10:36:15,934 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrowservice
+
+2022-08-19 10:36:15,947 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@borrowservice, value: Service{name='DEFAULT_GROUP@@borrowservice', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-08-19 10:36:15,958 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrowservice
+
+2022-08-19 13:58:56,113 INFO Raft group naming_persistent_service has leader 192.168.234.114:7801
+

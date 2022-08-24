@@ -1,0 +1,60 @@
+2022-08-19 10:26:55,546 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2022-08-19 10:26:56,560 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2022-08-19 10:26:57,574 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from 192.168.234.114:8802
+
+2022-08-19 10:26:59,723 ERROR [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from 192.168.234.114:8802 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION]Get snapshot from 192.168.234.114:8802 failed.
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:96)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:103)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: failed to req API: http://192.168.234.114:8802/nacos/v1/ns/distro/datums. code: 500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.234.114:8802 [/192.168.234.114] failed: Connection refused: connect
+	at com.alibaba.nacos.naming.misc.NamingProxy.getAllData(NamingProxy.java:150)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:93)
+	... 10 common frames omitted
+2022-08-19 10:27:29,738 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from 192.168.234.114:8802
+
+2022-08-19 10:27:29,756 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from 192.168.234.114:8802 result: true
+
+2022-08-19 10:27:29,757 INFO [DISTRO-INIT] load snapshot data success
+
+2022-08-19 10:29:23,172 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2022-08-19 10:29:24,173 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2022-08-19 10:29:25,174 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from 192.168.234.114:8802
+
+2022-08-19 10:29:27,317 ERROR [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from 192.168.234.114:8802 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION]Get snapshot from 192.168.234.114:8802 failed.
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:96)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:103)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: failed to req API: http://192.168.234.114:8802/nacos/v1/ns/distro/datums. code: 500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.234.114:8802 [/192.168.234.114] failed: Connection refused: connect
+	at com.alibaba.nacos.naming.misc.NamingProxy.getAllData(NamingProxy.java:150)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:93)
+	... 10 common frames omitted
+2022-08-19 10:29:57,323 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from 192.168.234.114:8802
+
+2022-08-19 10:29:57,337 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from 192.168.234.114:8802 result: true
+
+2022-08-19 10:29:57,338 INFO [DISTRO-INIT] load snapshot data success
+

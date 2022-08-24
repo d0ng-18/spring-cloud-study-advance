@@ -1,0 +1,68 @@
+2022-08-19 10:26:52,406 INFO notifyConnectTimeout:200
+
+2022-08-19 10:26:52,412 INFO notifySocketTimeout:8000
+
+2022-08-19 10:26:52,413 INFO isHealthCheck:true
+
+2022-08-19 10:26:52,413 INFO maxHealthCheckFailCount:12
+
+2022-08-19 10:26:52,413 INFO maxContent:10485760
+
+2022-08-19 10:26:52,413 INFO spring.datasource.platform:mysql
+
+2022-08-19 10:27:01,690 WARN DumpService start
+
+2022-08-19 10:27:01,691 INFO start clear all config-info.
+
+2022-08-19 10:27:01,692 WARN clear all config-info failed.
+
+2022-08-19 10:27:01,693 WARN clear all config-info-tenant failed.
+
+2022-08-19 10:27:01,869 INFO start clear all config-info-beta.
+
+2022-08-19 10:27:01,869 WARN clear all config-info-beta failed.
+
+2022-08-19 10:27:01,870 WARN clear all config-info-beta-tenant failed.
+
+2022-08-19 10:27:01,945 INFO start clear all config-info-tag.
+
+2022-08-19 10:27:01,945 WARN clear all config-info-tag failed.
+
+2022-08-19 10:27:01,945 WARN clear all config-info-tag-tenant failed.
+
+2022-08-19 10:27:02,084 WARN initialDelay:251
+
+2022-08-19 10:29:19,616 INFO notifyConnectTimeout:200
+
+2022-08-19 10:29:19,620 INFO notifySocketTimeout:8000
+
+2022-08-19 10:29:19,620 INFO isHealthCheck:true
+
+2022-08-19 10:29:19,620 INFO maxHealthCheckFailCount:12
+
+2022-08-19 10:29:19,620 INFO maxContent:10485760
+
+2022-08-19 10:29:19,621 INFO spring.datasource.platform:mysql
+
+2022-08-19 10:29:27,885 WARN DumpService start
+
+2022-08-19 10:29:27,885 INFO start clear all config-info.
+
+2022-08-19 10:29:27,886 WARN clear all config-info failed.
+
+2022-08-19 10:29:27,886 WARN clear all config-info-tenant failed.
+
+2022-08-19 10:29:29,317 INFO start clear all config-info-beta.
+
+2022-08-19 10:29:29,318 WARN clear all config-info-beta failed.
+
+2022-08-19 10:29:29,318 WARN clear all config-info-beta-tenant failed.
+
+2022-08-19 10:29:29,622 INFO start clear all config-info-tag.
+
+2022-08-19 10:29:29,622 WARN clear all config-info-tag failed.
+
+2022-08-19 10:29:29,622 WARN clear all config-info-tag-tenant failed.
+
+2022-08-19 10:29:29,776 WARN initialDelay:43
+

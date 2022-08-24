@@ -1,0 +1,10 @@
+2022-08-24 09:42:53,442 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-24 09:42:53,454 WARN [serverlist] updated to : [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.234.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-24 09:42:53,466 WARN [serverlist] updated to : [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.234.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-24 09:42:53,468 WARN [serverlist] updated to : [Member{ip='192.168.234.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.234.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-24 09:43:02,093 INFO This node is ready to provide external services
+

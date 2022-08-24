@@ -1,0 +1,530 @@
+2022-08-19 10:27:01,437 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.16.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-19 10:27:01,472 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.16.114:8301_true,
+
+2022-08-19 10:27:01,490 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.16.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.16.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-19 10:27:01,491 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.16.114:8102_false,192.168.16.114:8101_true,
+
+2022-08-19 10:27:01,492 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.16.114:8202:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.16.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-19 10:27:01,492 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.16.114:8202_false,192.168.16.114:8201_true,
+
+2022-08-19 10:27:04,662 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:27:04,853 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:27:06,699 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:27:07,326 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:27:07,755 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:27:11,393 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:27:11,424 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:27:11,501 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.16.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:27:16,417 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.16.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:29:58,961 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.234.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-19 10:29:58,963 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8201_true,
+
+2022-08-19 10:29:58,964 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8201_true,
+
+2022-08-19 10:30:02,340 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8201@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:30:05,755 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8201@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:30:08,319 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:31:02,560 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8201_true,
+
+2022-08-19 10:31:03,446 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:31:04,460 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:31:05,703 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:31:23,945 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8201_false,
+
+2022-08-19 10:31:27,791 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8201@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:31:32,793 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8201@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:31:36,544 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:34:46,072 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.234.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-19 10:34:46,073 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8202_true,192.168.234.114:8201_true,
+
+2022-08-19 10:34:46,913 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:34:46,913 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8202@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:34:47,917 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8202@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:34:48,919 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.234.114:8202@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:36:05,890 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.234.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-19 10:36:05,890 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8102_true,
+
+2022-08-19 10:36:05,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8102_true,
+
+2022-08-19 10:36:08,217 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8102@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:36:09,091 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.234.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-19 10:36:09,091 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_true,192.168.234.114:8102_true,
+
+2022-08-19 10:36:10,566 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8101@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:36:10,566 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8102@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:36:12,326 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8101@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:36:12,326 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.234.114:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:36:13,329 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.234.114:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:36:15,965 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.234.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-19 10:36:15,965 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 10:36:15,965 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 10:36:16,123 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_true,192.168.234.114:8102_true,
+
+2022-08-19 10:36:16,182 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_true,192.168.234.114:8102_true,
+
+2022-08-19 10:36:16,847 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:36:16,847 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:36:17,839 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:36:17,839 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:36:19,278 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:36:19,278 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:36:21,183 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:36:26,416 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:36:30,340 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:38:25,737 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 10:38:26,229 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:38:27,224 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:38:28,476 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:38:46,323 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_false,192.168.234.114:8102_false,
+
+2022-08-19 10:38:47,226 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8102@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:38:48,840 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_false,192.168.234.114:8102_false,
+
+2022-08-19 10:38:52,223 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8101@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:38:52,223 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8102@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:38:56,911 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8101@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:38:56,911 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.234.114:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:38:58,461 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 10:38:59,548 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.234.114:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:39:00,579 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:39:05,580 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:39:09,331 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:41:15,053 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 10:41:15,937 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:41:16,945 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:41:18,193 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:43:35,416 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:43:40,365 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:43:44,129 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:44:06,019 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 10:44:06,941 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 10:46:14,681 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 10:46:15,836 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 10:46:16,843 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 10:46:18,100 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 10:46:40,188 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 10:46:40,629 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 10:46:45,189 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 10:46:48,939 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 11:19:52,622 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 11:19:53,621 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 11:19:54,631 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 11:19:55,883 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 11:20:14,590 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 11:20:18,001 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 11:20:23,002 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 11:20:26,752 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 12:20:33,704 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8202@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-08-19 12:20:33,704 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8102@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-08-19 12:20:33,704 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8101@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-08-19 12:20:33,704 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-08-19 12:20:33,704 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8201@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-08-19 12:20:34,453 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8101@DEFAULT in 2, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:34,453 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8102@DEFAULT in 2, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:34,453 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8201@DEFAULT in 2, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:34,453 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:34,453 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8202@DEFAULT in 2, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:36,460 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:37,216 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:37,216 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8101@DEFAULT, region: unknown, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:37,216 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8102@DEFAULT, region: unknown, msg: tcp:error:No route to host: no further information
+
+2022-08-19 12:20:37,216 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8202@DEFAULT, region: unknown, msg: tcp:error:No route to host: no further information
+
+2022-08-19 13:58:52,957 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 13:58:54,363 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8201@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 13:58:54,363 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8102@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 13:58:54,363 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8202@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 13:58:54,363 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8101@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 13:58:57,957 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 13:58:59,366 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8201@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 13:58:59,366 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8101@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 13:58:59,366 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8102@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 13:58:59,366 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8202@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 13:59:01,966 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 13:59:02,178 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.234.114:8202@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 13:59:02,178 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 13:59:02,179 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.234.114:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 13:59:02,179 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.234.114:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 14:24:48,521 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 14:24:49,434 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 14:24:50,434 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 14:24:51,684 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 14:25:10,321 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:25:13,773 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 14:25:18,776 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 14:25:22,527 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 14:34:15,009 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 14:34:16,476 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 14:34:17,476 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 14:34:18,727 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 14:34:37,912 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:34:40,128 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:35:03,145 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:35:05,829 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 14:35:10,830 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 14:35:14,583 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 14:36:48,264 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 14:36:49,071 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 14:36:50,085 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 14:36:51,346 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 14:37:08,348 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:37:08,432 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 14:37:13,434 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 14:37:17,190 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 14:40:30,821 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 14:40:32,047 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 14:40:33,054 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 14:40:34,297 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 14:40:56,406 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 14:40:56,490 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:41:01,408 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 14:41:05,159 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 14:42:03,033 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 14:42:04,502 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 14:42:05,504 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 14:42:06,753 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 14:42:25,264 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:42:28,839 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 14:42:33,841 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 14:42:37,591 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 14:49:46,368 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 14:49:47,503 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 14:49:48,490 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 14:49:49,753 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 14:50:10,147 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:50:11,866 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 14:50:13,870 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:50:39,471 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 14:50:40,333 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 14:50:45,333 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 14:50:49,089 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 15:12:05,360 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 15:12:05,949 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 15:12:06,958 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 15:12:08,205 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 15:12:42,188 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 15:12:45,342 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 15:12:50,342 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 15:12:54,093 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 15:13:26,400 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 15:13:27,451 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 15:13:28,461 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 15:13:29,715 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 15:13:46,321 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 15:13:46,800 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 15:13:52,054 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 15:13:55,556 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 15:14:00,098 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_true,192.168.234.114:8102_true,
+
+2022-08-19 15:14:00,130 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_true,192.168.234.114:8102_true,
+
+2022-08-19 15:14:01,020 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 15:14:01,020 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 15:14:02,021 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 15:14:02,021 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 15:14:03,457 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 15:14:03,457 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 15:14:27,899 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 15:14:29,017 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 15:14:30,018 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 15:14:31,269 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 15:14:47,869 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 15:14:48,386 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 15:14:53,394 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 15:14:57,149 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 16:48:22,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8202_true,192.168.234.114:8201_true,
+
+2022-08-19 16:48:22,381 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8202_true,192.168.234.114:8201_true,
+
+2022-08-19 16:48:22,383 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_true,
+
+2022-08-19 16:48:23,387 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 16:48:23,387 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 16:48:23,387 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 16:48:24,395 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 16:48:24,395 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 16:48:24,395 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 16:48:25,641 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 16:48:25,836 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 16:48:25,836 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 16:51:14,233 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8202_false,192.168.234.114:8201_false,
+
+2022-08-19 16:51:14,738 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_false,192.168.234.114:8102_false,
+
+2022-08-19 16:51:15,099 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8202@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 16:51:15,248 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8202_false,192.168.234.114:8201_false,
+
+2022-08-19 16:51:16,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.234.114:8101_false,192.168.234.114:8102_false,
+
+2022-08-19 16:51:16,423 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8102@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 16:51:16,423 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8101@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 16:51:20,100 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8202@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 16:51:20,100 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8201@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 16:51:21,423 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8102@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 16:51:21,423 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8101@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 16:51:22,304 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.234.114:8301_false,
+
+2022-08-19 16:51:22,848 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-19 16:51:24,251 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.234.114:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 16:51:24,251 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.234.114:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 16:51:24,788 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8201@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 16:51:24,788 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.234.114:8202@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 16:51:27,426 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 16:51:27,850 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-19 16:51:31,599 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-19 17:10:14,400 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8202_true,192.168.234.114:8201_true,
+
+2022-08-19 17:10:14,427 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.234.114:8202_true,192.168.234.114:8201_true,
+
+2022-08-19 17:10:15,653 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 17:10:15,653 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 17:10:16,652 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 17:10:16,652 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 17:10:18,090 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 17:10:18,090 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 17:28:03,854 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 17:28:03,854 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 17:28:04,198 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-19 17:28:04,854 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 17:28:04,854 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 17:28:05,188 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.234.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-19 17:28:06,427 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 17:28:06,427 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-19 17:28:06,444 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.234.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+

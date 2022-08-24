@@ -1,0 +1,770 @@
+2022-08-18 14:30:47,725 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.45.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:30:47,732 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 14:30:47,752 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:30:47,752 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 14:30:47,754 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:30:47,754 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 14:30:47,756 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 14:30:47,756 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 14:30:47,756 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 14:30:47,758 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:30:47,758 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 14:30:50,272 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:30:50,520 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:30:50,521 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:30:50,754 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:30:50,754 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:30:52,029 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 14:30:52,295 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:30:52,779 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:30:52,779 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:30:53,231 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:30:53,231 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:30:54,820 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:30:54,958 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:30:55,779 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 14:30:56,012 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:30:56,012 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:30:56,808 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:30:56,811 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:31:00,474 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@Shanghai, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:38:17,343 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.45.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:38:17,349 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 14:38:17,360 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:38:17,361 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 14:38:17,361 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:38:17,362 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 14:38:17,363 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 14:38:17,363 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 14:38:17,363 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 14:38:17,365 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:38:17,365 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 14:38:20,110 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 14:38:20,488 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:38:20,489 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:38:20,626 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:38:20,626 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:38:21,103 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:38:22,347 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 14:38:22,639 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:38:23,377 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:38:23,377 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:38:24,360 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:38:25,147 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@Shanghai, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:38:27,334 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:38:27,334 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:38:27,411 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:38:28,118 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:38:28,120 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:38:28,425 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:41:28,388 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:44:23,013 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.45.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:44:23,018 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 14:44:23,028 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:44:23,028 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 14:44:23,029 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:44:23,029 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 14:44:23,030 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 14:44:23,030 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 14:44:23,030 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 14:44:23,032 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:44:23,032 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 14:44:25,563 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:44:25,563 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:44:26,086 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:44:26,086 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:44:26,225 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:44:26,225 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 14:44:27,582 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:44:27,582 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:44:28,627 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:44:28,629 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:44:28,919 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 14:44:28,934 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:44:29,305 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:44:30,108 INFO serviceName: DEFAULT_GROUP@@userservice {PROBE} {IP-DISABLED} invalid: 192.168.45.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:44:30,108 INFO serviceName: DEFAULT_GROUP@@userservice {PROBE} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:45:26,642 INFO DEFAULT_GROUP@@userservice {SYNC} IP-DISABLED : 192.168.45.114:8102@DEFAULT
+
+2022-08-18 14:45:26,642 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.45.114:8201@Shanghai
+
+2022-08-18 14:45:26,642 INFO DEFAULT_GROUP@@userservice {SYNC} IP-DISABLED : 192.168.45.114:8101@DEFAULT
+
+2022-08-18 14:45:26,646 INFO DEFAULT_GROUP@@borrowservice {SYNC} IP-DISABLED : 192.168.45.114:8301@DEFAULT
+
+2022-08-18 14:45:26,646 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.45.114:8201@DEFAULT
+
+2022-08-18 14:45:26,648 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.45.114:8202@DEFAULT
+
+2022-08-18 14:52:33,616 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.45.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:52:33,620 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 14:52:33,632 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:52:33,632 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 14:52:33,633 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:52:33,634 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 14:52:33,635 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 14:52:33,635 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 14:52:33,635 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 14:52:33,636 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:52:33,636 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 14:52:36,171 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:52:36,171 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:52:36,693 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 14:52:36,724 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:52:37,353 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:52:37,353 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:52:37,722 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:52:38,181 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:52:38,181 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:52:39,239 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 14:52:39,301 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:52:40,558 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:52:40,558 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:52:41,095 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:52:41,095 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:52:41,310 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:53:38,268 INFO DEFAULT_GROUP@@userservice {SYNC} IP-DISABLED : 192.168.45.114:8102@DEFAULT
+
+2022-08-18 14:53:38,268 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.45.114:8201@Shanghai
+
+2022-08-18 14:53:38,272 INFO DEFAULT_GROUP@@borrowservice {SYNC} IP-DISABLED : 192.168.45.114:8301@DEFAULT
+
+2022-08-18 14:55:31,047 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.45.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:55:31,050 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 14:55:31,059 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:55:31,060 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 14:55:31,061 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:55:31,061 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 14:55:31,062 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 14:55:31,062 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 14:55:31,062 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 14:55:31,063 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 14:55:31,063 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 14:55:33,627 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 14:55:35,526 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:55:35,526 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:55:35,664 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:55:35,664 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:55:35,679 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 14:55:35,694 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 14:55:37,292 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:55:38,248 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@Shanghai, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:55:39,480 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:55:39,480 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:55:39,757 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:55:39,757 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:55:39,835 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 14:55:43,023 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:55:44,489 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:55:44,766 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:55:44,766 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 14:55:44,843 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:06:50,046 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.45.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:06:50,050 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 15:06:50,060 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:06:50,060 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:06:50,062 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:06:50,062 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:06:50,063 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 15:06:50,063 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 15:06:50,063 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:06:50,064 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:06:50,064 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:06:52,625 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:06:53,336 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:06:53,381 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:06:53,381 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:06:54,151 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:06:54,151 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:06:54,673 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:06:55,549 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 15:06:56,103 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:06:56,196 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:06:56,196 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:06:57,720 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:06:57,720 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:06:59,576 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:07:00,239 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:07:00,516 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 15:07:17,748 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:07:17,748 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:07:20,544 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@Shanghai, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:24:08,008 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.45.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:24:08,012 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 15:24:08,023 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:24:08,023 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:24:08,024 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:24:08,024 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:24:08,026 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 15:24:08,026 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 15:24:08,026 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:24:08,027 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:24:08,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:24:08,250 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:24:08,250 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:24:08,251 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:24:08,252 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:24:08,252 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:24:08,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 15:24:08,255 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:24:08,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:24:08,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_true,
+
+2022-08-18 15:24:08,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:24:10,594 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:24:10,594 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:24:10,896 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:24:10,896 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:24:12,189 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:24:12,652 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:24:12,652 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:24:13,260 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:24:13,260 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:24:14,364 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 15:24:14,541 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:24:15,611 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:24:15,611 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:24:15,851 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:24:16,639 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:24:16,639 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:24:20,177 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 15:24:20,430 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:24:25,191 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@Shanghai, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:24:35,612 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.16.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:24:35,614 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:24:39,978 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-18 15:24:44,988 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-18 15:24:49,682 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-18 15:31:59,560 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.16.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8301:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-18 15:31:59,565 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:31:59,577 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:31:59,577 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:31:59,579 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:31:59,579 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:31:59,580 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 15:31:59,580 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 15:31:59,580 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:31:59,584 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:31:59,584 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:32:02,096 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:32:02,111 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:32:02,191 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 15:32:03,392 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-18 15:32:04,093 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:32:04,093 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:32:04,109 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:32:04,109 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:32:04,285 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 15:32:05,786 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:32:06,905 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@Shanghai, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:32:07,209 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-18 15:32:07,241 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:32:07,241 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:32:08,096 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:32:08,096 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:32:10,793 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-18 15:32:13,115 INFO serviceName: DEFAULT_GROUP@@bookservice {PROBE} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:32:13,115 INFO serviceName: DEFAULT_GROUP@@bookservice {PROBE} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:33:10,932 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.45.114:8201@DEFAULT
+
+2022-08-18 15:33:10,932 INFO DEFAULT_GROUP@@borrowservice {SYNC} IP-DISABLED : 192.168.16.114:8301@DEFAULT
+
+2022-08-18 15:33:10,932 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.45.114:8202@DEFAULT
+
+2022-08-18 15:33:59,465 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_false,
+
+2022-08-18 15:35:47,694 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.16.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8301:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-18 15:35:47,699 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:35:47,712 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:35:47,712 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:35:47,714 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:35:47,714 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:35:47,716 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 15:35:47,716 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 15:35:47,716 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:35:47,719 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:35:47,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:35:48,025 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:35:48,026 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:35:48,027 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:35:48,027 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:35:48,028 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:35:48,031 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:35:48,031 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:35:48,032 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:35:48,032 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:35:48,033 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:35:50,428 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:35:50,760 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:35:50,760 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:35:50,805 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:35:50,948 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 15:35:52,652 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:35:53,286 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:35:53,286 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:35:53,397 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:35:53,666 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 15:35:55,813 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:35:55,813 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:35:55,844 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:35:56,913 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:35:56,913 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:35:57,068 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@Shanghai, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:35:57,116 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:36:00,424 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:36:05,429 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:37:49,665 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_false,
+
+2022-08-18 15:37:50,138 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-18 15:37:55,140 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-18 15:37:59,834 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-18 15:38:31,437 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:38:33,848 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:38:36,165 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:38:39,475 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:38:58,764 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-08-18 15:39:03,767 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-08-18 15:39:08,460 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-18 15:40:42,005 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:40:42,255 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-08-18 15:41:01,613 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:41:02,880 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:41:04,142 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:41:05,952 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:41:28,737 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.16.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8301:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-08-18 15:41:28,744 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.45.114:8301_false,192.168.16.114:8301_true,
+
+2022-08-18 15:41:28,764 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:41:28,764 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_true,192.168.45.114:8101_true,
+
+2022-08-18 15:41:28,767 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.45.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:41:28,767 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@userservice, ips: 192.168.45.114:8102_false,192.168.45.114:8101_true,
+
+2022-08-18 15:41:28,770 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.45.114:8202:unknown:Beijing_1.0_false_false_Beijing]
+
+2022-08-18 15:41:28,770 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.45.114:8201:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-08-18 15:41:28,771 INFO [IP-UPDATED] namespace: f770462f-581b-40c0-80a8-8fdf07ea8f58, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_false,
+
+2022-08-18 15:41:28,777 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.45.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.45.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 15:41:28,777 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.45.114:8201_true,192.168.45.114:8202_true,
+
+2022-08-18 15:41:31,405 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:41:31,627 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:41:31,627 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:41:32,027 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:41:32,923 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 1, msg: tcp:timeout
+
+2022-08-18 15:41:33,563 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.16.114:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:41:33,962 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8202@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:41:33,962 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:41:34,757 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-08-18 15:41:36,559 INFO serviceName: DEFAULT_GROUP@@bookservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8201@Shanghai in 2, msg: tcp:timeout
+
+2022-08-18 15:41:36,638 INFO serviceName: DEFAULT_GROUP@@userservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.45.114:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-08-18 15:41:36,639 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:41:36,908 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.16.114:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:41:37,321 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8201@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:41:37,321 INFO serviceName: DEFAULT_GROUP@@bookservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8202@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:41:38,692 INFO serviceName: DEFAULT_GROUP@@userservice {POS} {IP-DISABLED} invalid: 192.168.45.114:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-08-18 15:42:38,380 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.45.114:8201@Shanghai
+
+2022-08-18 15:42:38,380 INFO DEFAULT_GROUP@@userservice {SYNC} IP-DISABLED : 192.168.45.114:8102@DEFAULT
+
+2022-08-18 16:06:33,356 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.16.114:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 16:06:33,358 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.16.114:8301_true,
+
+2022-08-18 16:11:57,768 INFO DEFAULT_GROUP@@borrowservice {SYNC} IP-DISABLED : 192.168.16.114:8301@DEFAULT
+
+2022-08-18 16:12:07,772 INFO DEFAULT_GROUP@@borrowservice {SYNC} IP-ENABLED : 192.168.16.114:8301@DEFAULT
+
+2022-08-18 16:12:48,819 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.16.114:8102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 16:12:48,819 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.16.114:8102_true,
+
+2022-08-18 16:12:49,961 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.16.114:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 16:12:49,961 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.16.114:8202_true,
+
+2022-08-18 16:12:50,790 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.16.114:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 16:12:50,790 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.16.114:8102_true,192.168.16.114:8101_true,
+
+2022-08-18 16:12:52,052 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.16.114:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-08-18 16:12:52,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.16.114:8202_true,192.168.16.114:8201_true,
+
+2022-08-18 16:21:10,886 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.16.114:8202_true,192.168.16.114:8201_true,
+
+2022-08-18 16:21:10,886 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.16.114:8301_true,
+
+2022-08-18 16:21:10,886 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.16.114:8102_true,192.168.16.114:8101_true,
+
+2022-08-18 16:21:13,312 INFO DEFAULT_GROUP@@userservice {SYNC} IP-DISABLED : 192.168.16.114:8102@DEFAULT
+
+2022-08-18 16:21:13,312 INFO DEFAULT_GROUP@@userservice {SYNC} IP-DISABLED : 192.168.16.114:8101@DEFAULT
+
+2022-08-18 16:21:13,312 INFO DEFAULT_GROUP@@borrowservice {SYNC} IP-DISABLED : 192.168.16.114:8301@DEFAULT
+
+2022-08-18 16:21:13,314 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.16.114:8202@DEFAULT
+
+2022-08-18 16:21:13,314 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.16.114:8201@DEFAULT
+
+2022-08-18 16:21:22,152 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.16.114:8102_false,192.168.16.114:8101_false,
+
+2022-08-18 16:21:29,609 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.16.114:8202_false,192.168.16.114:8201_false,
+
+2022-08-18 16:21:30,286 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.16.114:8102_false,192.168.16.114:8101_false,
+
+2022-08-18 16:21:32,798 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.16.114:8301_false,
+
+2022-08-18 16:21:34,143 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.16.114:8202_false,192.168.16.114:8201_false,
+
+2022-08-18 16:21:38,319 INFO DEFAULT_GROUP@@userservice {SYNC} IP-ENABLED : 192.168.16.114:8102@DEFAULT
+
+2022-08-18 16:21:43,321 INFO DEFAULT_GROUP@@userservice {SYNC} IP-ENABLED : 192.168.16.114:8101@DEFAULT
+
+2022-08-18 16:21:43,321 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-ENABLED : 192.168.16.114:8202@DEFAULT
+
+2022-08-18 16:21:48,330 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-ENABLED : 192.168.16.114:8201@DEFAULT
+
+2022-08-18 16:21:48,330 INFO DEFAULT_GROUP@@borrowservice {SYNC} IP-ENABLED : 192.168.16.114:8301@DEFAULT
+
+2022-08-18 17:27:36,051 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.16.114:8202_true,192.168.16.114:8201_true,
+
+2022-08-18 17:27:36,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.16.114:8301_true,
+
+2022-08-18 17:27:36,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.16.114:8102_true,192.168.16.114:8101_true,
+
+2022-08-18 17:27:41,385 INFO DEFAULT_GROUP@@borrowservice {SYNC} IP-DISABLED : 192.168.16.114:8301@DEFAULT
+
+2022-08-18 17:27:41,385 INFO DEFAULT_GROUP@@userservice {SYNC} IP-DISABLED : 192.168.16.114:8102@DEFAULT
+
+2022-08-18 17:27:41,385 INFO DEFAULT_GROUP@@userservice {SYNC} IP-DISABLED : 192.168.16.114:8101@DEFAULT
+
+2022-08-18 17:27:41,388 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.16.114:8202@DEFAULT
+
+2022-08-18 17:27:41,388 INFO DEFAULT_GROUP@@bookservice {SYNC} IP-DISABLED : 192.168.16.114:8201@DEFAULT
+

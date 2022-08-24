@@ -1,0 +1,104 @@
+2022-08-24 09:42:42,858 INFO The server IP list of Nacos is [192.168.234.114:8801, 192.168.234.114:8802]
+
+2022-08-24 09:42:42,875 INFO Starting Nacos v1.4.3 on DESKTOP-FF8HSNA with PID 18668 (D:\Projects\spring-cloud-study-advance\nacos2\target\nacos-server.jar started by 86195 in D:\Projects\spring-cloud-study-advance\nacos2)
+
+2022-08-24 09:42:42,876 INFO No active profile set, falling back to default profiles: default
+
+2022-08-24 09:42:43,869 INFO Nacos is starting...
+
+2022-08-24 09:42:44,882 INFO Nacos is starting...
+
+2022-08-24 09:42:45,883 INFO Nacos is starting...
+
+2022-08-24 09:42:46,899 INFO Nacos is starting...
+
+2022-08-24 09:42:47,351 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5be1d0a4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-24 09:42:47,372 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-08-24 09:42:47,907 INFO Nacos is starting...
+
+2022-08-24 09:42:48,910 INFO Nacos is starting...
+
+2022-08-24 09:42:49,008 INFO Tomcat initialized with port(s): 8802 (http)
+
+2022-08-24 09:42:49,065 INFO Initializing ProtocolHandler ["http-nio-8802"]
+
+2022-08-24 09:42:49,097 INFO Starting service [Tomcat]
+
+2022-08-24 09:42:49,098 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2022-08-24 09:42:49,713 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2022-08-24 09:42:49,771 INFO Initializing Spring embedded WebApplicationContext
+
+2022-08-24 09:42:49,771 INFO Root WebApplicationContext: initialization completed in 6769 ms
+
+2022-08-24 09:42:49,927 INFO Nacos is starting...
+
+2022-08-24 09:42:50,566 INFO HikariPool-1 - Starting...
+
+2022-08-24 09:42:50,938 INFO Nacos is starting...
+
+2022-08-24 09:42:51,951 INFO Nacos is starting...
+
+2022-08-24 09:42:52,088 INFO HikariPool-1 - Start completed.
+
+2022-08-24 09:42:52,958 INFO Nacos is starting...
+
+2022-08-24 09:42:53,422 INFO Nacos-related cluster resource initialization
+
+2022-08-24 09:42:53,460 INFO The cluster resource is initialized
+
+2022-08-24 09:42:53,961 INFO Nacos is starting...
+
+2022-08-24 09:42:54,965 INFO Nacos is starting...
+
+2022-08-24 09:42:55,979 INFO Nacos is starting...
+
+2022-08-24 09:42:56,988 INFO Nacos is starting...
+
+2022-08-24 09:42:57,185 INFO Reflections took 83 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2022-08-24 09:42:57,244 INFO Reflections took 6 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2022-08-24 09:42:57,276 INFO Reflections took 7 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2022-08-24 09:42:57,296 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2022-08-24 09:42:58,005 INFO Nacos is starting...
+
+2022-08-24 09:42:59,015 INFO Nacos is starting...
+
+2022-08-24 09:42:59,094 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-08-24 09:42:59,732 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-08-24 09:43:00,038 INFO Nacos is starting...
+
+2022-08-24 09:43:01,055 INFO Nacos is starting...
+
+2022-08-24 09:43:01,335 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2022-08-24 09:43:01,446 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7df587ef, org.springframework.security.web.context.SecurityContextPersistenceFilter@11389053, org.springframework.security.web.header.HeaderWriterFilter@21d5c1a0, org.springframework.security.web.csrf.CsrfFilter@4da855dd, org.springframework.security.web.authentication.logout.LogoutFilter@2c4ca0f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ec11999, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18cc679e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e57e95e, org.springframework.security.web.session.SessionManagementFilter@538613b3, org.springframework.security.web.access.ExceptionTranslationFilter@2187fff7]
+
+2022-08-24 09:43:01,728 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-08-24 09:43:01,793 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-08-24 09:43:02,001 INFO Starting ProtocolHandler ["http-nio-8802"]
+
+2022-08-24 09:43:02,068 INFO Nacos is starting...
+
+2022-08-24 09:43:02,091 INFO Tomcat started on port(s): 8802 (http) with context path '/nacos'
+
+2022-08-24 09:43:02,101 INFO Started Nacos in 22.137 seconds (JVM running for 23.493)
+
+2022-08-24 09:43:02,103 INFO Nacos started successfully in cluster mode. use external storage
+
+2022-08-24 09:43:02,233 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-08-24 09:43:02,234 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-08-24 09:43:02,261 INFO Completed initialization in 27 ms
+

@@ -1,0 +1,752 @@
+2022-08-18 14:30:50,663 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 14:30:50,674 WARN [serverlist] self ip Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}} not in serverlist [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}}, Member{ip='192.168.45.114', port=8801, state=UP, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:30:50,675 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:30:50,703 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:30:50,709 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:30:58,647 INFO This node is ready to provide external services
+
+2022-08-18 14:31:08,695 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:10,702 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:12,687 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:14,694 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:16,700 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:18,706 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:20,714 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:22,724 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:24,734 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:26,742 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:28,753 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:30,765 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:32,776 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:34,783 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:36,792 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:38,809 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:40,804 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:42,821 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:44,814 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:46,823 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:48,831 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:50,850 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:52,852 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:54,865 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:31:56,867 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:31:58,877 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:00,887 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:02,894 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:04,903 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:06,913 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:08,922 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:10,933 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:12,944 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:14,952 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:16,956 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:18,961 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:20,968 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:22,976 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:24,985 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:26,991 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:28,999 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:31,010 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:33,020 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:35,029 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:37,036 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:39,043 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:41,053 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:43,063 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:45,067 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:47,078 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:49,087 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:51,098 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:53,108 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:55,115 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:32:57,118 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:32:59,129 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:01,136 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:03,145 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:05,151 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:07,161 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:09,170 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:11,176 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:13,182 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:15,190 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:17,198 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:19,200 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:21,218 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:23,231 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:25,240 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:27,242 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:29,248 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:31,252 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:33,267 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:35,259 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:37,262 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:39,269 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:41,275 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:43,284 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:45,293 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:47,313 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:49,330 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:51,329 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:53,337 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:55,346 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:33:57,357 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:33:59,365 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:01,372 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:03,381 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:05,390 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:07,400 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:09,410 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:11,417 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:13,423 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:15,434 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:17,439 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:19,444 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:21,451 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:23,460 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:25,474 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:27,482 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:29,494 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:31,505 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:33,516 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:35,525 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:37,536 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:39,549 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:41,560 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:43,567 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:45,571 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:47,579 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:49,588 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:51,597 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:53,610 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:55,619 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:34:57,629 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:34:59,637 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:01,665 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:03,679 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:05,670 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:07,676 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:09,684 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:11,700 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:13,701 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:15,702 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:17,709 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:19,718 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:21,726 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:23,739 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:25,747 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:27,753 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:29,761 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:31,771 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:33,779 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:35,788 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:37,796 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:39,803 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:41,817 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:43,825 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:45,831 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:47,836 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:49,840 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:51,846 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:53,852 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:55,869 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:35:57,878 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:35:59,888 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:01,878 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:03,883 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:05,889 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:07,905 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:09,921 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:11,931 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:13,944 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:15,944 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:17,948 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:19,968 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:21,980 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:23,988 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:25,992 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:28,000 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:30,003 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:32,016 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:34,022 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:36,033 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:38,041 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:40,049 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:42,057 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:44,061 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:46,066 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:48,069 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:50,073 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:52,078 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:54,087 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:36:56,099 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:36:58,108 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:00,114 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:02,124 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:04,132 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:06,141 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:08,161 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:10,150 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:12,160 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:14,168 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:16,178 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:18,189 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:20,190 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:22,192 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:24,198 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:26,214 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:28,205 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:30,208 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:32,210 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:34,229 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:36,218 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:38,234 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:40,237 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:42,253 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:44,258 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:46,265 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:48,270 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:50,272 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:52,286 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:54,303 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:37:56,293 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:37:58,309 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:38:00,317 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:38:01,506 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:38:01,508 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:38:01,510 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:38:01,511 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:38:01,512 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:38:01,513 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:38:01,513 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:38:02,324 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:38:26,648 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 14:38:26,652 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:38:30,557 INFO This node is ready to provide external services
+
+2022-08-18 14:41:38,785 WARN [serverlist] self ip Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}} not in serverlist [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}}, Member{ip='192.168.45.114', port=8801, state=UP, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=UP, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:38,787 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:38,789 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:38,790 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:38,792 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:38,793 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:38,793 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:38,793 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:45,307 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:41:47,308 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:41:49,322 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:41:51,334 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:41:53,347 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:41:55,350 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:41:56,477 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 14:41:56,481 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:56,485 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=SUSPICIOUS, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=SUSPICIOUS, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:56,487 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:56,488 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:41:57,368 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:41:59,372 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:01,381 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:03,388 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:05,396 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:07,407 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:09,414 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:11,422 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:13,430 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:15,438 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:17,446 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:19,457 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:21,468 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:23,477 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:25,488 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:27,497 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:29,505 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:31,518 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:33,529 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:35,536 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:37,547 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:39,552 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:41,562 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:43,571 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:45,577 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:47,583 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:49,591 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:51,611 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:53,611 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:55,617 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:42:57,632 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:42:59,641 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:01,650 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:03,661 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:05,671 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:07,680 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:09,690 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:11,689 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:13,693 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:15,697 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:17,702 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:19,721 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:21,740 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:23,730 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:25,746 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:27,735 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:29,739 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:31,604 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 14:43:31,607 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:31,610 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:31,610 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:31,611 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:31,611 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:31,612 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:31,613 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:31,767 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:33,784 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 14:43:35,786 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 14:43:55,468 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 14:43:55,472 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:55,476 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=UP, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:55,480 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:43:55,481 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:44:24,260 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 14:44:24,268 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:44:24,278 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:44:24,280 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:44:28,454 INFO This node is ready to provide external services
+
+2022-08-18 14:52:34,901 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 14:52:34,909 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:52:34,921 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:52:34,925 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:52:40,199 INFO This node is ready to provide external services
+
+2022-08-18 14:56:04,779 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 14:56:04,783 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:56:04,789 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:56:04,791 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 14:56:08,604 INFO This node is ready to provide external services
+
+2022-08-18 15:03:57,653 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=UP, extendInfo={raftPort=7801}}]
+
+2022-08-18 15:03:57,655 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 15:03:57,659 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 15:03:57,659 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 15:03:57,660 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 15:03:57,662 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 15:03:57,664 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 15:03:57,665 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.45.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}, Member{ip='192.168.45.114', port=8802, state=DOWN, extendInfo={raftPort=7802}}]
+
+2022-08-18 15:04:04,435 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:06,437 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:08,445 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:10,452 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:12,455 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:14,458 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:16,468 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:18,472 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:20,481 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:22,488 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:24,501 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:26,514 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:28,523 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:30,529 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:32,539 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:34,548 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:36,556 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:38,565 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:40,575 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:42,585 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:44,597 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:46,603 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:48,614 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:50,626 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:52,636 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:54,655 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:04:56,656 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:04:58,672 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:05:00,676 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:05:02,678 ERROR failed to report new info to target node : 192.168.45.114:8801, error : caused: Timeout connecting to [/192.168.45.114:8801];
+
+2022-08-18 15:05:04,670 ERROR failed to report new info to target node : 192.168.45.114:8802, error : caused: Timeout connecting to [/192.168.45.114:8802];
+
+2022-08-18 15:32:08,888 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 15:32:08,893 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 15:32:08,902 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 15:32:08,903 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 15:32:12,752 INFO This node is ready to provide external services
+
+2022-08-18 15:41:36,315 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 15:41:36,321 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 15:41:36,328 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 15:41:36,330 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 15:41:40,260 INFO This node is ready to provide external services
+
+2022-08-18 16:05:20,712 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-08-18 16:05:20,717 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 16:05:20,726 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 16:05:20,726 WARN [serverlist] updated to : [Member{ip='192.168.16.114', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='192.168.16.114', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-08-18 16:05:24,496 INFO This node is ready to provide external services
+
+2022-08-18 16:11:52,562 ERROR failed to report new info to target node : 192.168.16.114:8801, error : caused: No route to host: no further information;
+
+2022-08-18 16:11:54,563 ERROR failed to report new info to target node : 192.168.16.114:8801, error : caused: No route to host: no further information;
+
